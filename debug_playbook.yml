@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  tasks:
+  - name: ping job
+    debug:
+      msg: "This is sample print"
